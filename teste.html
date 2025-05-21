@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Exemplo de CSS Interno</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .caixa {
+      width: 300px;
+      height: 200px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid #4CAF50;
+      display: block;
+      background-color: white;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <div class="caixa">
+    <h2>Olá, Mundo!</h2>
+    <p>Essa é uma caixa estilizada com CSS interno.</p>
+  </div>
+
+<p><strong>font-family:</strong> Define a fonte do texto. Ex: <code>Arial, sans-serif</code>. Dá o estilo da letra.</p>
+
+<p><strong>text-align:</strong> Alinha o texto. Pode ser:
+  <ul>
+    <li><code>left</code> – esquerda (padrão)</li>
+    <li><code>center</code> – centralizado</li>
+    <li><code>right</code> – direita</li>
+    <li><code>justify</code> – justificado (bordas alinhadas dos dois lados)</li>
+  </ul>
+</p>
+
+<p><strong>margin:</strong> Espaço por fora do elemento. Ex: <code>margin: 50px auto;</code> → 50px em cima/baixo, centralizado nas laterais.</p>
+
+<p><strong>padding:</strong> Espaço interno entre o conteúdo e a borda do elemento. Ex: <code>padding: 20px;</code></p>
+
+<p><strong>width:</strong> Largura do elemento. Ex: <code>width: 300px;</code></p>
+
+<p><strong>height:</strong> Altura do elemento. Ex: <code>height: 200px;</code></p>
+
+<p><strong>display:</strong> Define como o elemento é exibido na tela:
+  <ul>
+    <li><code>block</code> – ocupa toda a largura (ex: divs, parágrafos)</li>
+    <li><code>inline</code> – fica na mesma linha (ex: <code>&lt;span&gt;</code>)</li>
+    <li><code>inline-block</code> – misto entre os dois (fica em linha, mas aceita largura e altura)</li>
+    <li><code>none</code> – esconde o elemento</li>
+  </ul>
+</p>
+
+<p><strong>border:</strong> Cria uma borda ao redor do elemento. Exemplo:
+  <code>border: 2px solid green;</code>  
+  Significa: 2px de espessura, linha sólida, cor verde.
+</p> 
+
 </body>
 </html>
